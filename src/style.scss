@@ -1,0 +1,19 @@
+body {
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #app {
+        position: relative;
+        background-color: black;
+        background-image: url("./static//images//cover/cover.png");
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        canvas {
+            position: absolute;
+        }
+    }
+}
